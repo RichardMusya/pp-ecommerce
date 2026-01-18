@@ -1,4 +1,9 @@
 {
   "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "globals": {
+    "test": "readonly",
+    "expect": "readonly",
+    "describe": "readonly"
+  },
   "rules": {}
 }
