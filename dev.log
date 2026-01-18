@@ -1,0 +1,1166 @@
+
+> pp-ecommerce@0.1.0 dev
+> next dev
+
+ ⚠ Invalid next.config.mjs options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ⚠ App router is available by default now, `experimental.appDir` option can be safely removed.
+/bin/sh: 1: pnpm: not found
+  ▲ Next.js 13.5.6
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+  - Experiments (use at your own risk):
+     · appDir
+
+ ✓ Ready in 3.5s
+ ○ Compiling /page ...
+ ✓ Compiled /page in 7s (449 modules)
+ ✓ Compiled in 630ms (232 modules)
+ ✓ Compiled /api/admin/discounts/route in 1408ms (240 modules)
+ ✓ Compiled /api/cart/route in 338ms (244 modules)
+ ✓ Compiled in 441ms (232 modules)
+ ✓ Compiled in 1021ms (476 modules)
+ ✓ Compiled in 295ms (232 modules)
+ ✓ Compiled /checkout/page in 1416ms (474 modules)
+ ✓ Compiled /api/checkout/validate/route in 153ms (252 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+   Reload env: .env
+ ✓ Compiled /api/checkout/create/route in 598ms (442 modules)
+ ✓ Compiled /api/cart/route in 154ms (245 modules)
+ ✓ Compiled /api/checkout/validate/route in 89ms (247 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /cart/page in 1320ms (450 modules)
+ ✓ Compiled /api/cart/route in 161ms (250 modules)
+ ✓ Compiled /api/checkout/validate/route in 103ms (252 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /admin/page in 1203ms (453 modules)
+ ✓ Compiled in 1686ms (241 modules)
+ ✓ Compiled in 3s (553 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled in 719ms (553 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled in 527ms (285 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 478ms (285 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 740ms (285 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 439ms (285 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /page in 542ms (272 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled /api/admin/discounts/route in 695ms (295 modules)
+ ✓ Compiled /api/cart/route in 193ms (299 modules)
+ ✓ Compiled in 481ms (285 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 913ms (582 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 513ms (553 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled /page in 759ms (272 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled /api/admin/discounts/route in 185ms (295 modules)
+ ✓ Compiled /api/cart/route in 263ms (299 modules)
+ ✓ Compiled in 850ms (553 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 885ms (553 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 465ms (553 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled /page in 650ms (272 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled /api/admin/discounts/route in 230ms (295 modules)
+ ✓ Compiled /api/cart/route in 148ms (299 modules)
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled in 533ms (285 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ node_modules/.pnpm/next-auth@4.22.1_next@13.5.6_@babel+core@7.28.6_react-dom@18.2.0_react@18.2.0__react@18_74ab83b2931542c949561fb51571c29e/node_modules/next-auth/react/index.js (119:0) @ useSession
+ ⨯ Error: [next-auth]: `useSession` must be wrapped in a <SessionProvider />
+    at Header (./src/components/Header.tsx:18:98)
+null
+ ✓ Compiled in 1491ms (560 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /api/auth/[...nextauth]/route in 236ms (299 modules)
+ ✓ Compiled (538 modules)
+ ✓ Compiled in 647ms (824 modules)
+ ✓ Compiled /api/admin/discounts/route in 386ms (540 modules)
+ ✓ Compiled /products/page in 754ms (814 modules)
+ ✓ Compiled /api/checkout/validate/route in 181ms (544 modules)
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ✓ Compiled /signup/page in 876ms (583 modules)
+ ✓ Compiled /api/auth/register/route in 184ms (313 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 186ms (549 modules)
+ ✓ Compiled in 925ms (838 modules)
+ ✓ Compiled /product/[slug]/page in 910ms (835 modules)
+ ✓ Compiled in 509ms (845 modules)
+ ✓ Compiled /api/admin/discounts/route in 252ms (555 modules)
+ ✓ Compiled /api/checkout/validate/route in 210ms (557 modules)
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ✓ Compiled in 558ms (292 modules)
+ ✓ Compiled in 272ms (292 modules)
+ ⨯ PrismaClientValidationError: 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    id: {
+      in: [
+        undefined,
+        ~~~~~~~~~
+        undefined,
+        undefined,
+        undefined,
+        undefined
+      ]
+    }
+  }
+}
+
+Invalid value for argument `in[0]`: Can not use `undefined` value within array. Use `null` or filter out `undefined` values.
+    at ti (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:5888)
+    at e.throwValidationError (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9750)
+    at gg (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:9113)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8148)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Vl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8512)
+    at Ul (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:8972)
+    at Fo (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6801)
+    at jl (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:118:6731)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10330
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._executeRequest (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10309)
+    at Ja (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:5144)
+    at l (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9811)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10077
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:10057
+    at Object.runInChildSpan (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1481)
+    at t._request (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:130:9980)
+    at s (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1157)
+    at /home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:34:1385
+    at i (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:987)
+    at PrismaPromise.then (/home/richardpaul/Desktop/PP/node_modules/.pnpm/@prisma+client@5.8.0_prisma@5.8.0/node_modules/@prisma/client/runtime/library.js:125:1063)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  clientVersion: '5.8.0'
+}
+ ✓ Compiled /api/admin/products/route in 888ms (314 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /api/cart/route in 401ms (604 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+   Reload env: .env
+ ✓ Compiled /api/checkout/create/route in 883ms (563 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 1278ms (530 modules)
+ ✓ Compiled /api/cart/route in 193ms (549 modules)
+ ✓ Compiled /api/checkout/validate/route in 145ms (551 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ✓ Compiled /api/checkout/create/route in 981ms (577 modules)
+ ✓ Compiled in 903ms (577 modules)
+ ✓ Compiled /page in 493ms (287 modules)
+ ✓ Compiled /api/admin/discounts/route in 210ms (310 modules)
+ ✓ Compiled /api/cart/route in 154ms (314 modules)
+ ✓ Compiled /api/checkout/validate/route in 282ms (316 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /api/auth/[...nextauth]/route in 1432ms (530 modules)
+ ✓ Compiled /admin/page in 507ms (532 modules)
+ ✓ Compiled /api/cart/route in 214ms (551 modules)
+ ✓ Compiled /api/admin/products/route in 309ms (555 modules)
+ ✓ Compiled /api/admin/discounts/route in 167ms (555 modules)
+ ✓ Compiled /api/admin/categories/route in 190ms (557 modules)
+ ✓ Compiled in 894ms (577 modules)
+ ✓ Compiled in 273ms (292 modules)
+ ✓ Compiled in 1084ms (577 modules)
+ ✓ Compiled in 335ms (577 modules)
+ ✓ Compiled in 277ms (292 modules)
+ ✓ Compiled in 463ms (577 modules)
+ ✓ Compiled in 1133ms (577 modules)
+ ✓ Compiled in 375ms (292 modules)
+ ✓ Compiled in 720ms (577 modules)
+ ✓ Compiled in 259ms (292 modules)
+ ✓ Compiled in 658ms (577 modules)
+ ✓ Compiled in 269ms (292 modules)
+ ✓ Compiled in 679ms (577 modules)
+ ✓ Compiled in 629ms (577 modules)
+ ✓ Compiled /page in 449ms (287 modules)
+ ✓ Compiled /api/admin/discounts/route in 232ms (310 modules)
+ ✓ Compiled /api/cart/route in 352ms (314 modules)
+ ✓ Compiled /admin/products/page in 903ms (596 modules)
+ ✓ Compiled /api/csrf/route in 436ms (320 modules)
+ ✓ Compiled (322 modules)
+ ✓ Compiled /admin/categories/page in 424ms (597 modules)
+ ✓ Compiled /api/admin/categories/route in 555ms (317 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 383ms (305 modules)
+ ✓ Compiled (544 modules)
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | 
+ [2m3[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | 
+ [2m3[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ○ Compiling /not-found ...
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | 
+ [2m3[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ✓ Compiled /_error in 1361ms (418 modules)
+ ✓ Compiled in 329ms (418 modules)
+ ✓ Compiled in 616ms (418 modules)
+ ✓ Compiled /not-found in 2.4s (739 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /api/auth/[...nextauth]/route in 151ms (345 modules)
+ ✓ Compiled (584 modules)
+ ✓ Compiled in 714ms (1005 modules)
+ ✓ Compiled in 229ms (421 modules)
+ ✓ Compiled in 558ms (1005 modules)
+ ✓ Compiled in 269ms (421 modules)
+ ✓ Compiled in 268ms (421 modules)
+ ✓ Compiled in 638ms (1005 modules)
+ ✓ Compiled in 320ms (421 modules)
+ ✓ Compiled in 216ms (421 modules)
+ ✓ Compiled in 438ms (419 modules)
+ ✓ Compiled in 382ms (419 modules)
+ ✓ Compiled in 467ms (419 modules)
+ ✓ Compiled in 923ms (734 modules)
+ ✓ Compiled in 1303ms (734 modules)
+ ✓ Compiled in 542ms (419 modules)
+ ✓ Compiled in 347ms (419 modules)
+ ✓ Compiled in 541ms (734 modules)
+ ✓ Compiled in 482ms (420 modules)
+ ✓ Compiled in 368ms (420 modules)
+ ✓ Compiled /page in 981ms (729 modules)
+ ✓ Compiled /api/admin/discounts/route in 305ms (345 modules)
+ ✓ Compiled /api/cart/route in 189ms (349 modules)
+ ✓ Compiled /admin/orders/page in 832ms (728 modules)
+ ⨯ ./src/app/api/admin/orders/route.ts:2:0
+Module not found: Can't resolve '../../../../../lib/prisma'
+[0m [90m 1 | [39m[36mimport[39m { [33mNextResponse[39m } [36mfrom[39m [32m'next/server'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 | [39m[36mimport[39m { prisma } [36mfrom[39m [32m'../../../../../lib/prisma'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36masync[39m [36mfunction[39m [33mGET[39m(req[33m:[39m [33mRequest[39m) {[0m
+[0m [90m 5 | [39m  [36mconst[39m url [33m=[39m [36mnew[39m [33mURL[39m(req[33m.[39murl)[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/api/admin/orders/route.ts:2:0
+Module not found: Can't resolve '../../../../../lib/prisma'
+[0m [90m 1 | [39m[36mimport[39m { [33mNextResponse[39m } [36mfrom[39m [32m'next/server'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 | [39m[36mimport[39m { prisma } [36mfrom[39m [32m'../../../../../lib/prisma'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36masync[39m [36mfunction[39m [33mGET[39m(req[33m:[39m [33mRequest[39m) {[0m
+[0m [90m 5 | [39m  [36mconst[39m url [33m=[39m [36mnew[39m [33mURL[39m(req[33m.[39murl)[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 284ms (425 modules)
+ ✓ Compiled in 259ms (425 modules)
+ ⨯ ./src/app/api/admin/orders/route.ts:2:0
+Module not found: Can't resolve '../../../../../lib/prisma'
+[0m [90m 1 | [39m[36mimport[39m { [33mNextResponse[39m } [36mfrom[39m [32m'next/server'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 | [39m[36mimport[39m { prisma } [36mfrom[39m [32m'../../../../../lib/prisma'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36masync[39m [36mfunction[39m [33mGET[39m(req[33m:[39m [33mRequest[39m) {[0m
+[0m [90m 5 | [39m  [36mconst[39m url [33m=[39m [36mnew[39m [33mURL[39m(req[33m.[39murl)[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /page ...
+ ✓ Compiled /page in 814ms (425 modules)
+ ✓ Compiled in 409ms (425 modules)
+ ✓ Compiled in 438ms (425 modules)
+ ✓ Compiled in 1634ms (736 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /api/auth/[...nextauth]/route in 663ms (350 modules)
+ ✓ Compiled in 2ms (589 modules)
+ ✓ Compiled in 1ms (589 modules)
+ ✓ Compiled in 773ms (1014 modules)
+ ✓ Compiled in 0ms (589 modules)
+ ✓ Compiled in 378ms (425 modules)
+ ✓ Compiled in 1388ms (1009 modules)
+ ✓ Compiled in 783ms (425 modules)
+ ✓ Compiled in 289ms (425 modules)
+ ✓ Compiled in 316ms (425 modules)
+ ✓ Compiled in 1974ms (740 modules)
+ ✓ Compiled /api/admin/discounts/route in 435ms (340 modules)
+ ✓ Compiled /api/cart/route in 181ms (344 modules)
+ ✓ Compiled /cart/page in 432ms (348 modules)
+ ✓ Compiled in 562ms (423 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /api/auth/[...nextauth]/route in 1558ms (582 modules)
+ ✓ Compiled in 328ms (423 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 1632ms (1005 modules)
+ ✓ Compiled in 575ms (1005 modules)
+ ✓ Compiled /api/admin/discounts/route in 532ms (584 modules)
+ ✓ Compiled /checkout/page in 932ms (589 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 1265ms (769 modules)
+ ✓ Compiled in 599ms (769 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 292ms (585 modules)
+ ✓ Compiled /api/checkout/validate/route in 252ms (585 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /products/page in 953ms (757 modules)
+ ✓ Compiled /product/[slug]/page in 783ms (765 modules)
+ ✓ Compiled in 852ms (770 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 1150ms (584 modules)
+ ✓ Compiled in 773ms (1009 modules)
+ ✓ Compiled /api/admin/discounts/route in 917ms (586 modules)
+ ✓ Compiled /api/checkout/validate/route in 692ms (586 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ✓ Compiled /admin/page in 1178ms (323 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 232ms (348 modules)
+ ✓ Compiled (587 modules)
+ ✓ Compiled /admin/carts/page in 717ms (1002 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 1292ms (1016 modules)
+ ⨯ src/app/admin/carts/page.tsx (23:7) @ AdminGuard
+ ⨯ ReferenceError: AdminGuard is not defined
+    at AdminCarts (./src/app/admin/carts/page.tsx:30:89)
+[0m [90m 21 | [39m  [36mreturn[39m ([0m
+[0m [90m 22 | [39m    [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 23 | [39m      [33m<[39m[33mAdminGuard[39m[33m>[39m[0m
+[0m [90m    | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mAdminNav[39m [33m/[39m[33m>[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39m[33mAdminGuard[39m[33m>[39m[0m
+[0m [90m 26 | [39m      [33m<[39m[33mh1[39m className[33m=[39m[32m"text-xl font-semibold"[39m[33m>[39m[33mCarts[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m[0m
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | import AdminNav from '../../../components/AdminNav';
+ [2m3[0m | 
+ [2m4[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | import AdminNav from '../../../components/AdminNav';
+ [2m3[0m | 
+ [2m4[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ○ Compiling /not-found ...
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | import AdminNav from '../../../components/AdminNav';
+ [2m3[0m | 
+ [2m4[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | import AdminNav from '../../../components/AdminNav';
+ [2m3[0m | 
+ [2m4[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./src/app/admin/discounts/page.tsx
+ReactServerComponentsError:
+
+You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+Learn more: https://nextjs.org/docs/getting-started/react-essentials
+
+   ,-[[36;1;4m/home/richardpaul/Desktop/PP/src/app/admin/discounts/page.tsx[0m:1:1]
+ [2m1[0m | import { useEffect, useState } from 'react';
+   : [31;1m                    ^^^^^^^^[0m
+ [2m2[0m | import AdminNav from '../../../components/AdminNav';
+ [2m3[0m | 
+ [2m4[0m | type Discount = { code: string; type: string; amount: number };
+   `----
+
+Maybe one of these should be marked as a client entry with "use client":
+  ./src/app/admin/discounts/page.tsx
+ ✓ Compiled /api/admin/discounts/route in 2s (759 modules)
+ ✓ Compiled (745 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /api/auth/[...nextauth]/route in 199ms (354 modules)
+ ✓ Compiled (593 modules)
+ ✓ Compiled in 677ms (430 modules)
+ ✓ Compiled in 378ms (430 modules)
+ ✓ Compiled in 591ms (430 modules)
+ ✓ Compiled in 336ms (430 modules)
+ ✓ Compiled in 1118ms (1018 modules)
+ ✓ Compiled in 633ms (1018 modules)
+ ✓ Compiled /page in 808ms (590 modules)
+ ✓ Compiled /api/admin/discounts/route in 501ms (592 modules)
+ ✓ Compiled /api/checkout/validate/route in 692ms (591 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /admin/categories/page in 1397ms (751 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 1385ms (782 modules)
+ ✓ Compiled in 1ms (592 modules)
+ ✓ Compiled in 0ms (592 modules)
+ ✓ Compiled in 0ms (592 modules)
+ ✓ Compiled in 1107ms (1021 modules)
+ ✓ Compiled in 641ms (429 modules)
+ ✓ Compiled in 330ms (429 modules)
+ ✓ Compiled in 818ms (429 modules)
+ ✓ Compiled in 1634ms (1021 modules)
+ ✓ Compiled /cart/page in 2.4s (1025 modules)
+ ✓ Compiled in 835ms (1025 modules)
+ ✓ Compiled in 319ms (429 modules)
+ ✓ Compiled in 255ms (429 modules)
+ ✓ Compiled /checkout/page in 627ms (601 modules)
+ ✓ Compiled in 979ms (1016 modules)
+ ✓ Compiled in 838ms (1016 modules)
+ ✓ Compiled in 1ms (587 modules)
+ ✓ Compiled in 1ms (587 modules)
+ ✓ Compiled in 1ms (587 modules)
+ ✓ Compiled in 0ms (587 modules)
+ ✓ Compiled in 229ms (429 modules)
+ ✓ Compiled in 1256ms (1016 modules)
+ ✓ Compiled in 1024ms (1016 modules)
+ ✓ Compiled in 992ms (1013 modules)
+ ✓ Compiled /admin/page in 252ms (587 modules)
+ ✓ Compiled /signup/page in 1062ms (592 modules)
+ ✓ Compiled /api/auth/register/route in 209ms (584 modules)
+ ✓ Compiled /page in 667ms (586 modules)
+ ✓ Compiled /api/checkout/validate/route in 444ms (586 modules)
+ ⚠ ./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+Module not found: Can't resolve 'encoding' in '/home/richardpaul/Desktop/PP/node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib'
+
+Import trace for requested module:
+./node_modules/.pnpm/node-fetch@2.6.7/node_modules/node-fetch/lib/index.js
+./node_modules/.pnpm/cross-fetch@3.1.5/node_modules/cross-fetch/dist/node-ponyfill.js
+./src/lib/paypal.ts
+./src/app/api/checkout/create/route.ts
+ ○ Compiling /api/checkout/create/route ...
+   Reload env: .env
+ ✓ Compiled /api/checkout/create/route in 911ms (733 modules)
+ ✓ Compiled in 342ms (733 modules)
+ ✓ Compiled /api/auth/[...nextauth]/route in 537ms (563 modules)
+ ✓ Compiled /not-found in 1306ms (983 modules)

@@ -1,0 +1,151 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String    @id @default(cuid())
+  email     String    @unique
+  name      String?
+  password  String?
+  role      String    @default("CUSTOMER")
+  addresses Address[]
+  orders    Order[]
+  carts     Cart[]
+  createdAt DateTime  @default(now())
+}
+
+model Address {
+  id        String  @id @default(cuid())
+  user      User?   @relation(fields: [userId], references: [id])
+  userId    String?
+  label     String?
+  line1     String
+  line2     String?
+  city      String
+  region    String
+  postal    String
+  country   String
+}
+
+model Category {
+  id    String    @id @default(cuid())
+  name  String    @unique
+  slug  String    @unique
+  products Product[]
+}
+
+model Product {
+  id            String        @id @default(cuid())
+  name          String
+  slug          String        @unique
+  description   String
+  price         Int
+  compareAtPrice Int?
+  currency      String        @default("USD")
+  stock         Int           @default(0)
+  sku           String?
+  rating        Float         @default(0)
+  category      Category?     @relation(fields: [categoryId], references: [id])
+  categoryId    String?
+  tags          String?
+  images        ProductImage[]
+  createdAt     DateTime      @default(now())
+  orderItems    OrderItem[]
+  cartItems     CartItem[]
+  inventoryAdjustments InventoryAdjustment[]
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  product   Product @relation(fields: [productId], references: [id])
+  productId String
+  url       String
+  alt       String?
+}
+
+model Cart {
+  id        String    @id @default(cuid())
+  user      User?     @relation(fields: [userId], references: [id])
+  userId    String?
+  cookieId  String?   @unique
+  items     CartItem[]
+  createdAt DateTime  @default(now())
+}
+
+model CartItem {
+  id        String   @id @default(cuid())
+  cart      Cart     @relation(fields: [cartId], references: [id])
+  cartId    String
+  product   Product  @relation(fields: [productId], references: [id])
+  productId String
+  quantity  Int
+  price     Int
+}
+
+model Order {
+  id            String      @id @default(cuid())
+  orderNumber   String      @unique
+  user          User?       @relation(fields: [userId], references: [id])
+  userId        String?
+  items         OrderItem[]
+  subtotal      Int
+  shipping      Int
+  tax           Int
+  discount      Int
+  total         Int
+  currency      String      @default("USD")
+  status        String @default("PENDING")
+  payments      Payment[]
+  invoicePath   String?
+  createdAt     DateTime    @default(now())
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  order       Order    @relation(fields: [orderId], references: [id])
+  orderId     String
+  product     Product  @relation(fields: [productId], references: [id])
+  productId   String
+  name        String
+  sku         String?
+  quantity    Int
+  price       Int
+}
+
+model DiscountCode {
+  id        String  @id @default(cuid())
+  code      String  @unique
+  type      String
+  amount    Int
+  active    Boolean @default(true)
+  startsAt  DateTime?
+  endsAt    DateTime?
+}
+
+model Payment {
+  id                String   @id @default(cuid())
+  provider          String
+  providerOrderId   String   @unique
+  providerCaptureId String?
+  status            String
+  rawResponse       String?
+  order             Order?   @relation(fields: [orderId], references: [id])
+  orderId           String?
+  createdAt         DateTime @default(now())
+}
+
+model InventoryAdjustment {
+  id        String   @id @default(cuid())
+  product   Product  @relation(fields: [productId], references: [id])
+  productId String
+  delta     Int
+  reason    String?
+  createdAt DateTime @default(now())
+}
+
+// Using string fields for role/status/type to keep compatibility with SQLite
