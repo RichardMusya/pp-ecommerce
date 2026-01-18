@@ -52,15 +52,15 @@ export default function PayPalButton({ createOrderUrl, localOrderId, cartId }: P
         // assume server returns PayPal order id
         return data.id || data.result?.id || data.paypal?.id || data.paypal?.result?.id || data.paypal?.id;
       },
-      onApprove: async (data: any, actions: any) => {
+      onApprove: async (data: any) => {
         // capture via server
         const resp = await fetch(`/api/paypal?action=capture`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ orderId: data.orderID, localOrderId, cartId }) });
-        const capture = await resp.json();
+        await resp.json();
         // handle UI redirect or success
         window.location.href = `/order/${localOrderId}`;
       }
     }).render(ref.current);
-  }, [loaded, ref.current]);
+  }, [loaded, ref.current, createOrderUrl, localOrderId, cartId]);
 
   if (error) {
     return <div className="p-4 bg-red-50 border rounded">PayPal error: {error}</div>;

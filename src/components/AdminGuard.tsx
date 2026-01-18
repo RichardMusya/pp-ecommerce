@@ -1,7 +1,8 @@
 "use client";
+import { ReactNode } from 'react';
 import { useSession, signIn } from 'next-auth/react';
 
-export default function AdminGuard({ children }: { children: React.ReactNode }) {
+export default function AdminGuard({ children }: { children: ReactNode }) {
   const { data: session, status } = useSession();
   if (status === 'loading') return <div>Loading...</div>;
   if (!session) {

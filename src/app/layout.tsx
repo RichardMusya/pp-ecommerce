@@ -1,13 +1,14 @@
 import './globals.css';
 import Header from '../components/Header';
 import Providers from '../components/Providers';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'PP E-commerce',
   description: 'Production-ready e-commerce scaffold'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>

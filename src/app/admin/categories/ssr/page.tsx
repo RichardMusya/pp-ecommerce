@@ -6,7 +6,7 @@ export default async function AdminCategoriesSSR({ searchParams }: { searchParam
   const take = 10;
   const skip = (page - 1) * take;
 
-  const [cats, total] = await Promise.all([
+  const [cats] = await Promise.all([
     prisma.category.findMany({ skip, take, orderBy: { name: 'asc' } }),
     prisma.category.count()
   ]);

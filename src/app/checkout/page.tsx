@@ -5,7 +5,7 @@ import { useSession, signIn } from 'next-auth/react';
 import PageNav from '../../components/PageNav';
 
 export default function CheckoutPage() {
-  const { data: session, status } = useSession();
+  const { data: session } = useSession();
   const [step, setStep] = useState(1);
   const [localOrderId, setLocalOrderId] = useState<string | null>(null);
   const [address, setAddress] = useState({ line1: '', city: '', region: '', postal: '', country: 'US' });

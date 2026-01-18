@@ -21,8 +21,8 @@ export default function Header() {
   }, [status]);
 
   useEffect(() => {
-    function onUpdated(e: Event) {
-      const detail = (e as CustomEvent)?.detail;
+    function onUpdated() {
+      const detail = (window as unknown as CustomEvent)?.detail;
       if (detail && typeof detail.count === 'number') setCount(detail.count);
       else {
         // fallback: re-fetch
@@ -30,8 +30,8 @@ export default function Header() {
       }
     }
 
-    window.addEventListener('cart:updated', onUpdated as EventListener);
-    return () => window.removeEventListener('cart:updated', onUpdated as EventListener);
+    window.addEventListener('cart:updated', onUpdated);
+    return () => window.removeEventListener('cart:updated', onUpdated);
   }, []);
 
   const isAdmin = (session as any)?.user?.role === 'ADMIN';

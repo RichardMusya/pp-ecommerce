@@ -6,7 +6,7 @@ export default async function AdminProductsSSR({ searchParams }: { searchParams?
   const take = 10;
   const skip = (page - 1) * take;
 
-  const [products, total] = await Promise.all([
+  const [products] = await Promise.all([
     prisma.product.findMany({ include: { category: true }, skip, take, orderBy: { createdAt: 'desc' } }),
     prisma.product.count()
   ]);

@@ -17,11 +17,11 @@ export default function CartPage() {
 
   useEffect(() => {
     // listen for cart updates
-    function onUpdated(e: Event) {
+    function onUpdated() {
       fetch('/api/cart').then((r) => r.json()).then((j) => setCart(j)).catch(() => {});
     }
-    window.addEventListener('cart:updated', onUpdated as EventListener);
-    return () => window.removeEventListener('cart:updated', onUpdated as EventListener);
+    window.addEventListener('cart:updated', onUpdated);
+    return () => window.removeEventListener('cart:updated', onUpdated);
   }, []);
 
   if (!cart) return <div>Loading cart...</div>;

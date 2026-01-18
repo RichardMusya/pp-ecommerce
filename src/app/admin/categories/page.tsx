@@ -1,6 +1,6 @@
 "use client";
-import AdminGuard from '../../../components/AdminGuard';
 import { useEffect, useState } from 'react';
+import AdminGuard from '../../../components/AdminGuard';
 import AdminNav from '../../../components/AdminNav';
 
 type Cat = any;

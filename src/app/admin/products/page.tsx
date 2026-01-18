@@ -18,7 +18,7 @@ export default function AdminProducts() {
     setList(j.data || []);
   }
 
-  useEffect(() => { load(page); }, [page]);
+  useEffect(() => { load(page); }, [page, load]);
 
   useEffect(() => {
     async function fetchCsrf() {
