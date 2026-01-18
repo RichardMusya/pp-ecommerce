@@ -1,32 +1,28 @@
-# Build Fix TODO List
+# Fix ESLint Errors and Vercel Build Issues
 
-## Config Fixes
-- [x] Fix next.config.mjs - remove deprecated appDir: true
+## ✅ Completed
+- 
 
-## ESLint Unused Variables
-- [x] Fix src/app/admin/categories/page.tsx - remove _page, _take
-- [x] Fix src/app/admin/categories/ssr/page.tsx - remove total
-- [x] Fix src/app/admin/products/ssr/page.tsx - remove total
-- [x] Fix src/app/admin/seed/page.tsx - remove useEffect import
-- [x] Fix src/app/api/auth/[...nextauth]/route.ts - remove NextResponse import
-- [x] Fix src/app/api/auth/register/route.ts - remove user variable
-- [x] Fix src/app/cart/page.tsx - remove e parameter
-- [x] Fix src/app/checkout/page.tsx - remove status variable
-- [x] Fix src/components/PayPalButton.tsx - remove actions, capture variables
-- [x] Fix src/lib/prisma.ts - remove prisma variable (but re-added export)
+## 📋 To Do
 
-## ESLint Undefined Variables
-- [x] Fix src/app/layout.tsx - React.ReactNode type
-- [x] Fix src/components/AdminGuard.tsx - add ReactNode import
-- [x] Fix src/components/Header.tsx - EventListener type
-- [x] Fix src/components/Providers.tsx - add ReactNode import
+### Errors (4)
+- [ ] Fix src/app/admin/categories/page.tsx - Remove unused `page` and `take` variables
+- [ ] Fix src/app/admin/seed/page.tsx - Remove unused `useEffect` import
+- [ ] Fix src/lib/prisma.ts - Remove or rename unused `prisma` variable
+- [ ] Fix src/app/admin/products/page.tsx - Wrap `load` in useCallback()
 
-## React Hook Warnings
-- [x] Fix src/app/admin/products/page.tsx - add load to deps
-- [x] Fix src/components/PayPalButton.tsx - add missing deps
+### Warnings (7)
+- [ ] Fix src/components/PayPalButton.tsx - Remove ref.current from useEffect dependencies
+- [ ] Fix src/app/cart/page.tsx - Replace <img> with Next.js <Image />
+- [ ] Fix src/app/category/[slug]/page.tsx - Replace <img> with Next.js <Image />
+- [ ] Fix src/app/page.tsx - Replace <img> with Next.js <Image />
+- [ ] Fix src/app/product/[slug]/page.tsx - Replace <img> with Next.js <Image />
+- [ ] Fix src/app/products/page.tsx - Replace <img> with Next.js <Image />
 
-## Missing Dependencies
-- [x] Add encoding package
-- [x] Add iconv-lite package
-- [x] Add @types/iconv-lite package
+### Vercel Build
+- [ ] Run pnpm install --no-frozen-lockfile to update lockfile
+
+## Final Verification
+- [ ] Run ESLint to confirm no errors
+- [ ] Run build to confirm successful compilation
 

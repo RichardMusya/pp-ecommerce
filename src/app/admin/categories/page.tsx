@@ -9,8 +9,6 @@ export default function AdminCategories() {
   const [list, setList] = useState<Cat[]>([]);
   const [name, setName] = useState('');
   const [editing, setEditing] = useState<{ id?: string; name?: string } | null>(null);
-  const [page, setPage] = useState(1);
-  const take = 10;
   const [csrf, setCsrf] = useState('');
 
   async function load() {
@@ -84,10 +82,6 @@ export default function AdminCategories() {
         </ul>
       </div>
 
-      <div className="mt-4 flex gap-2">
-        <button onClick={() => setPage((s) => Math.max(1, s - 1))} className="px-3 py-1 border rounded">Prev</button>
-        <button onClick={() => setPage((s) => s + 1)} className="px-3 py-1 border rounded">Next</button>
-      </div>
     </div>
   );
 }

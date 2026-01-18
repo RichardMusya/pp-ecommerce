@@ -60,7 +60,7 @@ export default function PayPalButton({ createOrderUrl, localOrderId, cartId }: P
         window.location.href = `/order/${localOrderId}`;
       }
     }).render(ref.current);
-  }, [loaded, ref.current, createOrderUrl, localOrderId, cartId]);
+  }, [loaded, createOrderUrl, localOrderId, cartId]);
 
   if (error) {
     return <div className="p-4 bg-red-50 border rounded">PayPal error: {error}</div>;

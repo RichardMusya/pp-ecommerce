@@ -61,6 +61,7 @@ export default function CartPage() {
         {items.length === 0 && <p>Your cart is empty.</p>}
         {items.map((it: any) => (
           <div key={it.id} className="bg-white p-3 rounded flex flex-col sm:flex-row items-start sm:items-center gap-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={it.product?.images?.[0]?.url}
               alt={it.product?.name || 'Product image'}

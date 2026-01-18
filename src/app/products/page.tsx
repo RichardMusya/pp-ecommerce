@@ -30,6 +30,7 @@ export default async function ProductsPage({ searchParams }: { searchParams?: an
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
         {products.map((p) => (
           <article key={p.id} className="bg-white p-3 rounded shadow-sm">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={p.images[0]?.url} alt={p.images[0]?.alt || p.name} className="w-full h-40 object-cover rounded" />
             <h2 className="mt-2 font-medium">{p.name}</h2>
             <p className="text-sm text-gray-600">${(p.price / 100).toFixed(2)}</p>

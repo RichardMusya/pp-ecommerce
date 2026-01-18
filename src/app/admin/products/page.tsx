@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import AdminNav from '../../../components/AdminNav';
 import AdminGuard from '../../../components/AdminGuard';
 
@@ -12,11 +12,11 @@ export default function AdminProducts() {
   const [csrf, setCsrf] = useState('');
   const take = 10;
 
-  async function load(p = page) {
+  const load = useCallback(async (p = page) => {
     const r = await fetch(`/api/admin/products?page=${p}&take=${take}`);
     const j = await r.json();
     setList(j.data || []);
-  }
+  }, [page, take]);
 
   useEffect(() => { load(page); }, [page, load]);
 

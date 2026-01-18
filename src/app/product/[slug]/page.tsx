@@ -19,6 +19,7 @@ export default async function ProductPage({ params }: { params: { slug: string }
       <PageNav />
       <div className="grid md:grid-cols-2 gap-4">
         <div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={product.images[0]?.url} alt={product.images[0]?.alt || product.name} className="w-full h-[420px] object-cover rounded" />
         </div>
         <div>
