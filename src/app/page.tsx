@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import PageNav from '../components/PageNav';
 import { prisma } from '../lib/prisma';
 
@@ -40,7 +41,7 @@ export default async function Home() {
           {products.map((p) => (
             <article key={p.id} className="bg-white p-3 rounded shadow-sm">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={p.images[0]?.url} alt={p.images[0]?.alt || p.name} className="w-full h-40 object-cover rounded" />
+              <Image src={p.images[0]?.url || '/placeholder.png'} alt={p.images[0]?.alt || p.name} width={160} height={160} className="w-full h-40 object-cover rounded" />
               <h3 className="mt-2 font-medium">{p.name}</h3>
               <p className="text-sm text-gray-600">${(p.price / 100).toFixed(2)}</p>
               <Link href={`/product/${p.slug}`} className="text-blue-600 text-sm">

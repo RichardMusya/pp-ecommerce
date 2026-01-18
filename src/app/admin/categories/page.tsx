@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import AdminGuard from '../../../components/AdminGuard';
 import AdminNav from '../../../components/AdminNav';
 
@@ -11,11 +11,11 @@ export default function AdminCategories() {
   const [editing, setEditing] = useState<{ id?: string; name?: string } | null>(null);
   const [csrf, setCsrf] = useState('');
 
-  async function load() {
+  const load = useCallback(async () => {
     const r = await fetch('/api/admin/categories');
     const j = await r.json();
     setList(j.data || j || []);
-  }
+  }, []);
 
   useEffect(() => { load(); }, []);
 

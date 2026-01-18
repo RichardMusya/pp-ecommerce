@@ -1,5 +1,6 @@
 import { prisma } from '../../../lib/prisma';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
 const AddToCartButton = dynamic(() => import('../../../components/AddToCartButton'), { ssr: false });
 import PageNav from '../../../components/PageNav';
@@ -20,7 +21,7 @@ export default async function ProductPage({ params }: { params: { slug: string }
       <div className="grid md:grid-cols-2 gap-4">
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={product.images[0]?.url} alt={product.images[0]?.alt || product.name} className="w-full h-[420px] object-cover rounded" />
+          <Image src={product.images[0]?.url || '/placeholder.png'} alt={product.images[0]?.alt || product.name} width={420} height={420} className="w-full h-[420px] object-cover rounded" />
         </div>
         <div>
           <h1 className="text-2xl font-bold">{product.name}</h1>

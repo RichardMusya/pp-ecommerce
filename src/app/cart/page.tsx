@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import PageNav from '../../components/PageNav';
 
 export default function CartPage() {
@@ -62,9 +63,11 @@ export default function CartPage() {
         {items.map((it: any) => (
           <div key={it.id} className="bg-white p-3 rounded flex flex-col sm:flex-row items-start sm:items-center gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={it.product?.images?.[0]?.url}
+            <Image
+              src={it.product?.images?.[0]?.url || '/placeholder.png'}
               alt={it.product?.name || 'Product image'}
+              width={80}
+              height={80}
               className="w-full sm:w-20 h-40 sm:h-20 object-cover rounded"
             />
             <div className="flex-1 w-full">
